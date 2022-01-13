@@ -1,10 +1,11 @@
-let temp = 12
+let isCitizen = true
+let age = 34
 
-if(temp <0){
-  console.log("make sure you pick a scarf");
-}else if (temp < 15){
-  console.log("short sleeves wont cut it");
-}else {
-  console.log("Short sleeves are fine");
+if(isCitizen && age >18){
+  console.log("you are allowed to vote");
 }
-console.log("Now your ready to go outside");
+
+
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
